@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[6]:
-
-
 #Johns Hopkins University Neural Network Code
 # Written by: Lucas Buccafusca 2/24/2022
 # With guidance from 'A Neural Network in 11 lines of Python' from iamtrask, 'What is a Neural Network?' by 3blue1brown and 'Neural networks from scratch in Python' by Cristian Dima
@@ -96,9 +90,6 @@ layer_1 = sigmoid(np.dot(layer_0,weights_0))
 layer_2 = sigmoid(np.dot(layer_1,weights_1))
 print ("Output of Full Dataset After Training:")
 print (layer_2)
-
-
-# In[ ]:
 
 
 
