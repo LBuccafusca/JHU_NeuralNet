@@ -22,11 +22,11 @@ def sigmoid(x): #Sigmoid Activation Function
 def sigmoid_deriv(x): #Derivative of Sigmoid function
 	return x*(1-x)
 
-def arctan(x): #Arctan Activation Function 
-	return numpy.arctan(x)   
+def arctan(x): #Hyperbolic Tangent Activation Function 
+	return numpy.tanh(x)   
     
-def arctan_deriv(x): #Derivative of Arctan function
-	return 1/(1+x^2)       
+def arctan_deriv(x): #Derivative of Hyperbolic Tangent function
+	return 1-x^2      
 
 def ReLU(x): #ReLU Activation Function 
 	return max(0.0, x)   
