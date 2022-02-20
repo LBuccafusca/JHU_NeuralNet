@@ -26,7 +26,7 @@ def arctan(x): #Hyperbolic Tangent Activation Function
 	return numpy.tanh(x)   
     
 def arctan_deriv(x): #Derivative of Hyperbolic Tangent function
-	return 1-x^2      
+	return 1-x**2      
 
 def ReLU(x): #ReLU Activation Function 
 	return max(0.0, x)   
