@@ -3,3 +3,8 @@ Basic Neural Network Implementation in Python for JHU reference. 2/24/2022
 Constructs a simple 1-layer neural network and trains to determine outputs of an XOR function
 Code is self-contained; running it provides all the necessary information
 Allows for customization (multiple neuron types included for reference)
+
+FOLDER CONTENTS:
+README: README FILE
+JHU_NeuralNet.pdf file is a pdf version of the code with a sample output
+JHU_NeuralNet.py file is a Python executable 
