@@ -11,6 +11,4 @@ FOLDER CONTENTS:
 
 README: README FILE
 
-JHU_NeuralNet.pdf file is a pdf version of the code with a sample output
-
 JHU_NeuralNet.py file is a Python executable 
